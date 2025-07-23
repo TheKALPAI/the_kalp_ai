@@ -39,9 +39,8 @@ export default function HeroSection() {
               Explore Services
             </Button>
             <Button
-              variant="outline"
               onClick={() => scrollToSection('contact')}
-              className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-800 transition-colors"
+              className="bg-white/20 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-800 transition-colors backdrop-blur-sm"
             >
               Submit Request
             </Button>
