@@ -94,7 +94,7 @@ export default function PricingSection() {
                     <div className="font-semibold">End-to-End Journal Support</div>
                     <div className="text-sm text-gray-600">10-12 days delivery</div>
                   </div>
-                  <div className="font-bold text-xl text-green-600">Rs. 15,000+</div>
+                  <div className="font-bold text-xl text-green-600">Rs. 15,000 + APC</div>
                 </div>
                 <div className="flex justify-between items-center">
                   <div>
