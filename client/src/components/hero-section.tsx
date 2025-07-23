@@ -14,11 +14,11 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="text-center">
           <div className="mb-8">
-            <div className="h-24 w-24 mx-auto rounded-2xl bg-white/10 p-4 mb-6">
+            <div className="h-32 w-32 mx-auto rounded-2xl bg-white/20 p-4 mb-6">
               <img 
                 src={logoPath} 
                 alt="The KALP.AI Logo" 
-                className="h-full w-full object-contain"
+                className="h-full w-full object-contain filter brightness-0 invert"
               />
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function HeroSection() {
               onClick={() => scrollToSection('contact')}
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
             >
-              Get Started
+              Submit Request
             </Button>
           </div>
         </div>
