@@ -26,7 +26,7 @@ export default function HeroSection() {
             The KALP.AI
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-blue-100">
-            What you get is more than what you pay
+            Statistical Service Simplified
           </p>
           <p className="text-lg mb-8 text-blue-200 max-w-3xl mx-auto">
             Professional Academic Research, Data Analysis, and AI/ML Solutions for Students and Researchers Worldwide

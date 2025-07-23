@@ -25,7 +25,7 @@ export default function Footer() {
               Professional academic research and data analysis services for students and researchers worldwide.
             </p>
             <p className="text-blue-400 font-semibold">
-              What you get is more than what you pay
+              Statistical Service Simplified
             </p>
           </div>
           
