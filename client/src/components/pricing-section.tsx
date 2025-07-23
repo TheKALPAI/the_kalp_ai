@@ -129,7 +129,7 @@ export default function PricingSection() {
                   <p className="text-sm text-gray-600">Special discount available</p>
                 </div>
               </div>
-              <p className="text-gray-700 mb-4">Use coupon code <strong className="text-blue-600">"medical10"</strong> for an additional 10% discount on your order.</p>
+              <p className="text-gray-700 mb-4">Use coupon code <strong className="text-blue-600">"medica10n"</strong> for an additional 10% discount on your order.</p>
             </CardContent>
           </Card>
 
