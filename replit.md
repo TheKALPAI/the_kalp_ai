@@ -4,9 +4,14 @@
 
 This is a modern, full-stack web application for KALP.AI, an academic research and data analysis service company. The application features a professional landing page with service showcases, pricing information, and contact forms. It's built with React frontend and Express backend, using a PostgreSQL database with Drizzle ORM for data management.
 
+The website showcases KALP.AI's "Statistical Service Simplified" tagline and emphasizes their team of MD professionals from INI institutions who specialize in biostatistics and data analytics. The design uses an elegant serif typography system for academic professionalism.
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Typography: Serif-based fonts for professional academic appearance - EB Garamond, Playfair Display, Crimson Text combination approved.
+Branding: Logo visibility and professional presentation prioritized.
+Content accuracy: Team credentials must reflect MD expertise from INI (not PhD).
 
 ## System Architecture
 
@@ -142,5 +147,13 @@ attached_assets/ - Static assets (logos, images)
 - **tailwind.config.ts**: Tailwind CSS configuration
 - **drizzle.config.ts**: Database configuration
 - **components.json**: Shadcn/ui configuration
+
+## Recent Changes (January 2025)
+
+- **Typography System**: Implemented serif-based font system using EB Garamond (body), Playfair Display (headings/company name), and Crimson Text (complementary text) for professional academic appearance
+- **Logo Integration**: Successfully integrated actual KALP.AI logo across navigation, hero section, and footer with proper visibility fixes
+- **Content Updates**: Updated tagline to "Statistical Service Simplified", corrected team credentials to MD from INI, updated medical student discount code to "medica10n"
+- **Pricing Clarification**: Updated End-to-End Journal Support pricing to "Rs. 15,000 + APC" for transparency
+- **UI Improvements**: Fixed button visibility issues, enhanced logo contrast in hero section
 
 This architecture provides a scalable foundation for the KALP.AI landing page with room for expansion into a full-featured academic services platform.
