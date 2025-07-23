@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-// Logo will be replaced with SVG temporarily due to import issues
-// import logoPath from '@assets/logo__1753286867730.PNG';
+const logoPath = '/logo.png';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,12 +31,11 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
-            <div className="h-10 w-10 rounded-lg bg-kalp-blue flex items-center justify-center">
-              <svg viewBox="0 0 100 100" className="h-8 w-8 text-white">
-                <circle cx="50" cy="50" r="45" fill="currentColor" />
-                <text x="50" y="55" textAnchor="middle" className="text-2xl font-bold fill-blue-800">K</text>
-              </svg>
-            </div>
+            <img 
+              src={logoPath} 
+              alt="The KALP.AI Logo" 
+              className="h-10 w-10 rounded-lg object-contain"
+            />
             <span className="text-xl font-bold kalp-blue">The KALP.AI</span>
           </div>
           

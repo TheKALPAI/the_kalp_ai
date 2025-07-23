@@ -4,8 +4,8 @@ export default function AboutSection() {
   const features = [
     {
       icon: GraduationCap,
-      title: "Expert Team",
-      description: "PhD scholars and industry experts with years of experience",
+      title: "Premier Training",
+      description: "Led by MD professionals trained at INIs like AIIMS, with deep academic and technical foundations",
       color: "bg-blue-600"
     },
     {

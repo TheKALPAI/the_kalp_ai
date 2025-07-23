@@ -4,8 +4,8 @@ export default function WhyChooseSection() {
   const reasons = [
     {
       icon: GraduationCap,
-      title: "Expert Team",
-      description: "Our team consists of PhD scholars and industry professionals with extensive research experience across multiple domains.",
+      title: "MD Experts from INI",
+      description: "Our team consists of MD professionals trained at prestigious INIs like AIIMS, with deep expertise in biostatistics, research methodology, and data analytics.",
       color: "bg-blue-600"
     },
     {

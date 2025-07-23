@@ -1,5 +1,4 @@
-// Logo will be replaced with SVG temporarily due to import issues
-// import logoPath from '@assets/logo__1753286867730.PNG';
+const logoPath = '/logo.png';
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -15,12 +14,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="h-8 w-8 rounded bg-blue-600 flex items-center justify-center">
-                <svg viewBox="0 0 100 100" className="h-6 w-6 text-white">
-                  <circle cx="50" cy="50" r="45" fill="currentColor" />
-                  <text x="50" y="55" textAnchor="middle" className="text-2xl font-bold fill-blue-800">K</text>
-                </svg>
-              </div>
+              <img 
+                src={logoPath} 
+                alt="The KALP.AI Logo" 
+                className="h-8 w-8 rounded object-contain"
+              />
               <span className="text-xl font-bold">The KALP.AI</span>
             </div>
             <p className="text-gray-400 mb-4">

@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
-// Logo will be replaced with SVG temporarily due to import issues
-// import logoPath from '@assets/logo__1753286867730.PNG';
+const logoPath = '/logo.png';
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -15,11 +14,12 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="text-center">
           <div className="mb-8">
-            <div className="h-24 w-24 mx-auto rounded-2xl bg-white/20 flex items-center justify-center mb-6">
-              <svg viewBox="0 0 100 100" className="h-16 w-16 text-white">
-                <circle cx="50" cy="50" r="45" fill="currentColor" />
-                <text x="50" y="60" textAnchor="middle" className="text-3xl font-bold fill-blue-800">K</text>
-              </svg>
+            <div className="h-24 w-24 mx-auto rounded-2xl bg-white/10 p-4 mb-6">
+              <img 
+                src={logoPath} 
+                alt="The KALP.AI Logo" 
+                className="h-full w-full object-contain"
+              />
             </div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
