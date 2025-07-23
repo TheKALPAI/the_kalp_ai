@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(210, 40%, 96%);
+  --muted-foreground: hsl(215.4, 16.3%, 46.9%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(214.3, 31.8%, 91.4%);
+  --input: hsl(214.3, 31.8%, 91.4%);
+  --primary: hsl(221.2, 83.2%, 53.3%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(222.2, 84%, 4.9%);
+  --accent: hsl(210, 40%, 96%);
+  --accent-foreground: hsl(222.2, 84%, 4.9%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(221.2, 83.2%, 53.3%);
+  --radius: 0.5rem;
+  
+  /* KALP.AI Brand Colors */
+  --kalp-blue: hsl(221.2, 83.2%, 53.3%);
+  --kalp-blue-dark: hsl(224, 76.3%, 48%);
+  --kalp-blue-light: hsl(213.1, 93.9%, 67.8%);
+  --kalp-green: hsl(158.1, 64.4%, 51.6%);
+  --kalp-amber: hsl(43.3, 96.4%, 56.3%);
+}
+
+.dark {
+  --background: hsl(222.2, 84%, 4.9%);
+  --foreground: hsl(210, 40%, 98%);
+  --muted: hsl(217.2, 32.6%, 17.5%);
+  --muted-foreground: hsl(215, 20.2%, 65.1%);
+  --popover: hsl(222.2, 84%, 4.9%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --card: hsl(222.2, 84%, 4.9%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --border: hsl(217.2, 32.6%, 17.5%);
+  --input: hsl(217.2, 32.6%, 17.5%);
+  --primary: hsl(221.2, 83.2%, 53.3%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(217.2, 32.6%, 17.5%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+  --accent: hsl(217.2, 32.6%, 17.5%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(221.2, 83.2%, 53.3%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .kalp-blue {
+    color: var(--kalp-blue);
+  }
+  
+  .bg-kalp-blue {
+    background-color: var(--kalp-blue);
+  }
+  
+  .kalp-blue-dark {
+    color: var(--kalp-blue-dark);
+  }
+  
+  .bg-kalp-blue-dark {
+    background-color: var(--kalp-blue-dark);
+  }
+  
+  .kalp-blue-light {
+    color: var(--kalp-blue-light);
+  }
+  
+  .bg-kalp-blue-light {
+    background-color: var(--kalp-blue-light);
+  }
+  
+  .kalp-green {
+    color: var(--kalp-green);
+  }
+  
+  .bg-kalp-green {
+    background-color: var(--kalp-green);
+  }
+  
+  .kalp-amber {
+    color: var(--kalp-amber);
+  }
+  
+  .bg-kalp-amber {
+    background-color: var(--kalp-amber);
+  }
+}
