@@ -32,7 +32,7 @@ export default function AboutSection() {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About The KALP.AI</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4 font-serif-display">About The KALP.AI</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We are a team of experienced researchers, data scientists, and academic writers dedicated to helping students and professionals achieve their research goals.
           </p>

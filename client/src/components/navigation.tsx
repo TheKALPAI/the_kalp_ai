@@ -36,7 +36,7 @@ export default function Navigation() {
               alt="The KALP.AI Logo" 
               className="h-10 w-10 rounded-lg object-contain"
             />
-            <span className="text-xl font-bold kalp-blue">The KALP.AI</span>
+            <span className="text-xl font-bold kalp-blue font-serif-display">The KALP.AI</span>
           </div>
           
           <div className="hidden md:flex space-x-8">

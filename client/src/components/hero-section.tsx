@@ -22,10 +22,10 @@ export default function HeroSection() {
               />
             </div>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 font-serif-display">
             The KALP.AI
           </h1>
-          <p className="text-xl md:text-2xl mb-4 text-blue-100">
+          <p className="text-xl md:text-2xl mb-4 text-blue-100 font-serif-display">
             Statistical Service Simplified
           </p>
           <p className="text-lg mb-8 text-blue-200 max-w-3xl mx-auto">

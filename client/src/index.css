@@ -60,7 +60,8 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
+    @apply bg-background text-foreground antialiased;
+    font-family: 'EB Garamond', 'Crimson Text', 'Times New Roman', serif;
   }
 
   html {
@@ -107,5 +108,18 @@
   
   .bg-kalp-amber {
     background-color: var(--kalp-amber);
+  }
+
+  /* Typography Classes */
+  .font-serif {
+    font-family: 'EB Garamond', 'Crimson Text', 'Times New Roman', serif;
+  }
+  
+  .font-serif-display {
+    font-family: 'Playfair Display', 'EB Garamond', 'Times New Roman', serif;
+  }
+  
+  .font-serif-text {
+    font-family: 'Crimson Text', 'EB Garamond', 'Times New Roman', serif;
   }
 }

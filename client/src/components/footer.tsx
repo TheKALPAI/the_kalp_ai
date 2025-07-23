@@ -19,7 +19,7 @@ export default function Footer() {
                 alt="The KALP.AI Logo" 
                 className="h-8 w-8 rounded object-contain"
               />
-              <span className="text-xl font-bold">The KALP.AI</span>
+              <span className="text-xl font-bold font-serif-display">The KALP.AI</span>
             </div>
             <p className="text-gray-400 mb-4">
               Professional academic research and data analysis services for students and researchers worldwide.
